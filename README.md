@@ -8,6 +8,7 @@ In the code you can also see the MSE for the clean and predicted images.
 
 I was not targetting any random gamma noise, first I fitted a gamma distribution to my "noise only" frames, later when I got the parameters of
 gamma distribution, then I added that noise to images. 
+The training time for the above code was around 15 hours on GeForce RTX 3090, if you are using Geforce RTX 2080 then it will take around 27-28 hours. 
 
 
 If you want to train this model on your noise, then what you can do is pick any standard dataset and add the noise to those standard images. 
